@@ -27,7 +27,6 @@ while salir == False:
                 nota = float(input("Ingrese la nota (0 a 5): "))
 
                 if nota >= 0 and nota <= 5:
-
                     repetido = False
 
                     for estudiante in estudiantes:
@@ -40,7 +39,6 @@ while salir == False:
                         print("Estudiante agregado correctamente")
                     else:
                         print("El ID ya existe")
-
                 else:
                     print("La nota debe estar entre 0 y 5")
 
@@ -52,7 +50,6 @@ while salir == False:
 
             if contador == 0:
                 print("No hay estudiantes registrados")
-
             else:
                 suma = 0
 
@@ -76,7 +73,6 @@ while salir == False:
             encontrado = False
 
             for estudiante in estudiantes:
-
                 if estudiante[0] == buscar:
                     print("Estudiante encontrado")
                     print("ID:", estudiante[0])
@@ -93,3 +89,4 @@ while salir == False:
 
         case _:
             print("Opcion incorrecta")
+
